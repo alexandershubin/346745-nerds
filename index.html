@@ -16,46 +16,58 @@
         <li><a href="catalog.html">Магазин</a></li>
         <li><a href="contacts">Контакты</a></li>
       </ul>
-      <ul class="link">
-        <li><a href="bascet.html">Корзина</a></li>
+      <ul class="basket-link">
+        <li><a href="basket.html">Корзина</a></li>
       </ul>
     </nav>
   </header>
   <main class="container">
     <h1 class="visual-hidden">Веб-студия Нердс</h1>
-    <article class="information">
-      <header class="main">
-        <h2>Долго, дорого, скурпулезно.</h2>
-      </header>
-      <section class="idea">
-        <p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-        <a class="button" href="knowmore.html">Узнать больше</a>
-      </section>
-      <aside class="main-photo">
-        <img src="/assets/course73/preview.jpg" alt="Главное фото">
-      </aside>
-    </article>
-    <section class="products">
+    <div class="title-slider">
+        <div class="title-slider-list">
+          <div class="title-slide-item title-slide-item-active">
+            <h2>Долго,дорого, скурпулезно</h2>
+            <p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
+            <a href="#" class="button"></a>
+          </div>
+          <div class="slide-item">
+            <h2>Любим математику как никто другой</h2>
+            <p>Никакого креатива, тлько математические формулы для расчета идеальных пропорций.</p>
+            <a href="#" class="button"></a>
+          </div>
+          <div class="slide-item">
+            <h2>Только ночь, только хардкор</h2>
+            <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа тлько начинается.</p>
+            <a href="#" class="button"></a>
+          </div>
+        </div>
+        <ul class="slider-controls">
+          <li class="slider-controls-item slider-controls-item-active"></li>
+          <li class="slider-controls-item"></li>
+          <li class="slider-controls-item"></li>
+        </div>
+      </div>
+    <section class="side-products">
       <h2 class="visuali-hidden">Товары</h2>
-      <ul class="products-list">
-        <li class="products-item">
-          <a class="products-item-logo">
+      <ul class="side-products-list">
+        <li class="side-products-item">
+          <a class="side-products-item-logo">
             <img src="im/index.svg" width="300" height="100" alt="Логотип заголовка">
           </a>
           <h3>Веб-сайты</h3>
           <p>Мир никогда не будет прежним после того как увидит Ваш сайт!</p>
           <a class="button" href="order">Заказать</a>
         </li>
-        <li class="products-item">
-          <a class="products-item-logo">
+        <li class="side-products-item">
+          <a class="side-products-item-logo">
             <img src="im/index.svg" width="300" height="100" alt="Логотип заголовка">
           </a>
           <h3>Приложения</h3>
           <p>Покорите топ-10 приложений в AppStore и Google Play</p>
           <a class="button" href="order">Заказать</a>
         </li>
-        <li class="products-item">
-          <a class="products-item-logo">
+        <li class="side-products-item">
+          <a class="side-products-item-logo">
             <img src="im/index.svg" width="300" height="100" alt="Логотип заголовка">
           </a>
           <h3>Презентации</h3>
@@ -65,16 +77,16 @@
       </ul>
     </section>
     <article class="about-us">
-      <header class="anons">
+      <header class="anons-charter">
         <h2>Мы-маленькая, но гордая дизайн-студия из Краснодара</h2>
       </header>
-      <section class="abouts">
+      <section class="par-abouts">
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы</p>
         <h3>Выполняем заказы на разработку:</h3>
-        <ul class="abouts-list">
-          <li class="abouts-item">Веб-сайтов любой сложности</li>
-          <li class="abouts-item">Мобильных приложений для IOS и Android</li>
-          <li class="abouts-item">Слайд-шоу и видео для корпоративных призентаций</li>
+        <ul class="par-abouts-list">
+          <li class="par-abouts-item">Веб-сайтов любой сложности</li>
+          <li class="par-abouts-item">Мобильных приложений для IOS и Android</li>
+          <li class="par-abouts-item">Слайд-шоу и видео для корпоративных призентаций</li>
         </ul>
       </section>
       <aside class="feature">
@@ -87,18 +99,18 @@
             <h3>146%</h3>
             <p>Уровень самоотдачи</p>
           </li>
-          <li class="feature-item">
+          <li class="side-feature-item">
             <h3>100%</h3>
             <p>Соблюдение сроков</p>
           </li>
-          <li class="feature-item">
+          <li class="side-feature-item">
             <h3>50%</h3>
             <p>Минимальная предоплата</p>
           </li>
         </ul>
       </aside>
     </article>
-    <section class="slides">
+    <section class="partner-photo">
       <img src="/assets/course73/photo-1.jpg" alt="photo-1">
       <img src="/assets/course73/photo-2.jpg" alt="photo-2">
       <img src="/assets/course73/photo-3.jpg" alt="photo-3">
@@ -106,23 +118,31 @@
     </section>
   </main>
   <footer class="main-footer">
-    <section class="map">
+    <section class="first-map">
       <img src="/assets/course73/map.svg" width="360" height="230" alt="Карта">
-        <div class="adress">
-          <h2>Nerds design studio</h2>
-          <p class="contacts">191 186, Санкт Петербург, ул. Б. Конюшенная, д. 19/8</p>
-          <p>тел. +7(812)275-75-75</p>
-          <a class="button" href="writeus">Напишите нам</a>
-        </div>
+      <div class="studio-adress">
+        <h2>Nerds design studio</h2>
+        <p class="contacts">191 186, Санкт Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <p>тел. +7(812)275-75-75</p>
+        <a class="button" href="writeus">Напишите нам</a>
+      </div>
     </section>
-    <aside>
-      <ul>
-        <li><a class="social-buton" href="#">Вконтакте</a></li>
-        <li><a class="social-buton" href="#">Фэйсбук</a></li>
-        <li><a class="social-buton" href="#">Инстаграм</a></li>
+    <section class="appointment">
+      <h2>Напишите нам</h2>
+      <!--здесь будет форма-->
+    </section>
+    <aside class="social-buton">
+      <ul class="social-buton-list">
+        <li><a class="social-buton-item" href="#">Вконтакте</a></li>
+        <li><a class="social-buton-item" href="#">Фэйсбук</a></li>
+        <li><a class="social-buton-item" href="#">Инстаграм</a></li>
       </ul>
-      <h2>Давайте дружить, это выгодно</h2>
-      <p>Скидка 10% для друзеий из социальных сетей.</p>
+      <ul class="par-title-list">
+        <li class="par-title-item">
+          <h2>Давайте дружить, это выгодно</h2>
+          <p>Скидка 10% для друзеий из социальных сетей.</p>
+        </li>
+      </ul>
     </aside>
   </footer>
 </body>
