@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Александр Шубин](https://up.htmlacademy.ru/htmlcss/22/user/346745).
+* Студент: [Александр Шубин](https://htmlacademy.ru/profile/id346745).
 * Наставник: [Владислав & Балабанович](https://htmlacademy.ru/profile/balabanovich).
 
 ---
