@@ -47,13 +47,13 @@
         <legend>Сетка:</legend>
         <ul>
           <li class="filter-option">
-            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="adaptive" id="filter-adaptive" checked>
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="adaptive" id="filter-adaptive" tabindex="1" checked>
             <label for="filter-adaptive">Адаптивная</label>
           </li>
-          <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="fixed" id="filter-fixed">
+          <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="fixed" id="filter-fixed" tabindex="2">
             <label for="filter-fixed">Фиксированная</label>
           </li>
-          <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="rubber" id="filter-rubber">
+          <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="rubber" id="filter-rubber" tabindex="3">
             <label for="filter-rubber">Резиновая
             </label>
           </li>
@@ -63,28 +63,28 @@
         <legend>Особенности</legend>
         <ul>
           <li class="filter-option">
-            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" tabindex="4"checked>
             <label for="filter-slider">Слайдер</label>
           </li>
           <li class="filter-option">
-            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block avantages" id="filter-avantages">
+            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block avantages" id="filter-avantages" tabindex="5">
             <label for="filter-avantages">Блок преимуществ</label>
           </li>
           <li class="filter-option">
-            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" tabindex="6" checked>
             <label for="filter-news">Новости</label>
           </li>
           <li class="filter-option">
-            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galary" id="filter-galary">
+            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galary" id="filter-galary" tabindex="7">
             <label for="filter-galary">Галерея</label>
           </li>
           <li class="filter-option">
-            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
+            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket" tabindex="8">
             <label for="filter-basket">Корзина</label>
           </li>
         </ul>
       </fieldset>
-      <button type="submit" class="filter-button button">Показать</button>
+      <button type="submit" class="filter-button button" tabindex="9">Показать</button>
     </form>
     </section>
     <section class="catalog">
@@ -219,14 +219,14 @@
             <td><label for="email">Ваш email:</label></td>
           </tr>
           <tr>
-            <td><input type="text" name="name" id="name-field" placeholder="Имя Фамилия" required></td>
-            <td><input type="email" name="email" placeholder="email@example.com" required></td>
+            <td><input type="text" name="name" id="name-field" placeholder="Имя Фамилия" autocomplete="on" tabindex="1" required></td>
+            <td><input type="email" name="email" placeholder="email@example.com" autocomplete="on" tabindex="2" required></td>
           </tr>
         </table>
         <h3>текст письма:</h3>
-        <textarea name="text-letter" id="text-letter-field" rows="10" cols="10">В свободной форме</textarea>
+        <textarea name="text-letter" id="text-letter-field" rows="10" cols="10" tabindex="3">В свободной форме</textarea>
         <div class="buttons">
-          <input type="submit" value="Отправить">
+          <input type="submit" value="Отправить" tabindex="4">
         </div>
       </form>
     </section>

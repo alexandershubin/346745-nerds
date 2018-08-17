@@ -154,14 +154,14 @@
             <td><label for="email">Ваш email:</label></td>
           </tr>
           <tr>
-            <td><input type="text" name="name" id="name-field" placeholder="Имя Фамилия" required></td>
-            <td><input type="email" name="email" placeholder="email@example.com" required></td>
+            <td><input type="text" name="name" id="name-field" placeholder="Имя Фамилия" autocomplete="on" tabindex="1" required></td>
+            <td><input type="email" name="email" placeholder="email@example.com" autocomplete="on" tabindex="2" required></td>
           </tr>
         </table>
         <h3>текст письма:</h3>
-        <textarea name="text-letter" id="text-letter-field" rows="10" cols="10">В свободной форме</textarea>
+        <textarea name="text-letter" id="text-letter-field" rows="10" cols="10" tabindex="3">В свободной форме</textarea>
         <div class="buttons">
-          <input type="submit" value="Отправить">
+          <input type="submit" value="Отправить" tabindex="4">
         </div>
       </form>
     </section>
