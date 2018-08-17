@@ -25,7 +25,67 @@
     <h1 class="page-title">Магазин готовых шаблонов</h1>
     <section class="main-filters">
       <h2 class="visual-hidden">Фильтры</h2>
-    <!--здесь будет форма-->
+      <h3>Сортировать:</h3>
+      <nav class="navigation-filter">
+        <ul class="main-filter">
+          <li class="main-filter-curret"><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По названию</a></li>
+        </ul>
+      </nav>
+    <form class="filter" method="get" action="https://echo.htmlacademy.ru" oninput="costoutput.value=costcount.value">
+      <fieldset>
+        <legend>
+          <label for="costcount">Стоимость</label>
+        </legend>
+        <div>от 0 
+          <input type="range" name="costoutput" id="costoutput" min="0" max="15000" step="500">до 15000
+        </div>
+        <output name="costoutput"></output>
+      </fieldset>
+      <fieldset>
+        <legend>Сетка:</legend>
+        <ul>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="adaptive" id="filter-adaptive" checked>
+            <label for="filter-adaptive">Адаптивная</label>
+          </li>
+          <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="fixed" id="filter-fixed">
+            <label for="filter-fixed">Фиксированная</label>
+          </li>
+          <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="rubber" id="filter-rubber">
+            <label for="filter-rubber">Резиновая
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Особенности</legend>
+        <ul>
+          <li class="filter-option">
+            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+            <label for="filter-slider">Слайдер</label>
+          </li>
+          <li class="filter-option">
+            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block avantages" id="filter-avantages">
+            <label for="filter-avantages">Блок преимуществ</label>
+          </li>
+          <li class="filter-option">
+            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+            <label for="filter-news">Новости</label>
+          </li>
+          <li class="filter-option">
+            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galary" id="filter-galary">
+            <label for="filter-galary">Галерея</label>
+          </li>
+          <li class="filter-option">
+            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
+            <label for="filter-basket">Корзина</label>
+          </li>
+        </ul>
+      </fieldset>
+      <button type="submit" class="filter-button button">Показать</button>
+    </form>
     </section>
     <section class="catalog">
       <h2 classs="visual-hidden">Список шаблонов</h2>
@@ -152,7 +212,23 @@
       <a class="write-us">
         <img src="img/картинки/write-us-table-1.png"width="360" height="230" alt="таблица напишите нам">
       </a>
-      <!--здесь будет форма-->
+      <form class="table-info" action="https://echo.htmlacademy.ru" method="get">
+        <table>
+          <tr>
+            <td><label for="name-field">Ваш имя:</label></td>
+            <td><label for="email">Ваш email:</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="name" id="name-field" placeholder="Имя Фамилия" required></td>
+            <td><input type="email" name="email" placeholder="email@example.com" required></td>
+          </tr>
+        </table>
+        <h3>текст письма:</h3>
+        <textarea name="text-letter" id="text-letter-field" rows="10" cols="10">В свободной форме</textarea>
+        <div class="buttons">
+          <input type="submit" value="Отправить">
+        </div>
+      </form>
     </section>
     <aside class="social-buton">
       <ul class="social-buton-list">

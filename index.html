@@ -31,7 +31,7 @@
             <a href="#" class="button"></a>
             <p class="title-slide-item-image">
               <a href="#">
-                <img src="/img/картинки/main-photo-1.png">
+                <img src="/img/картинки/main-photo-1.png" width="368" height="153" alt="основное фото-1">
               </a>
             </p>
           </div>
@@ -41,7 +41,7 @@
             <a href="#" class="button"></a>
             <p class="title-slide-item-image">
               <a href="#">
-                <img src="/img/картинки/main-photo-2.png">
+                <img src="/img/картинки/main-photo-2.png" width="368" height="153" alt="основное фото-2">
               </a>
           </div>
           <div class="slide-item">
@@ -50,7 +50,7 @@
             <a href="#" class="button"></a>
             <p class="title-slide-item-image">
               <a href="#">
-                <img src="img/картинки/main-photo-3.png">
+                <img src="img/картинки/main-photo-3.png" width="368" height="153" alt="основное фото-3">
               </a>
           </div>
         </div>
@@ -124,10 +124,10 @@
       </aside>
     </article>
     <section class="partner-photo">
-      <img src="img/картинки/partner-photo-1.png" alt="photo-1">
-      <img src="img/картинки/partner-photo-2.png" alt="photo-2">
-      <img src="img/картинки/partner-photo-3.png" alt="photo-3">
-      <img src="img/картинки/partner-photo-4.png" alt="photo-4">
+      <img src="img/картинки/partner-photo-1.png" width="150" height="70" alt="photo-1">
+      <img src="img/картинки/partner-photo-2.png" width="150" height="70" alt="photo-2">
+      <img src="img/картинки/partner-photo-3.png" width="150" height="70" alt="photo-3">
+      <img src="img/картинки/partner-photo-4.png" width="150" height="70" alt="photo-4">
     </section>
   </main>
   <footer class="main-footer">
@@ -145,9 +145,25 @@
     <section class="appointment">
       <h2>Напишите нам</h2>
       <a class="write-us">
-        <img src="img/картинки/write-us-table-1.png"width="360" height="230" alt="таблица напишите нам">
+        <img src="img/write-us-table-1.png" width="360" height="230" alt="таблица напишите нам">
       </a>
-      <!--здесь будет форма-->
+      <form class="table-info" action="https://echo.htmlacademy.ru" method="get">
+        <table>
+          <tr>
+            <td><label for="name-field">Ваш имя:</label></td>
+            <td><label for="email">Ваш email:</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="name" id="name-field" placeholder="Имя Фамилия" required></td>
+            <td><input type="email" name="email" placeholder="email@example.com" required></td>
+          </tr>
+        </table>
+        <h3>текст письма:</h3>
+        <textarea name="text-letter" id="text-letter-field" rows="10" cols="10">В свободной форме</textarea>
+        <div class="buttons">
+          <input type="submit" value="Отправить">
+        </div>
+      </form>
     </section>
     <aside class="social-buton">
       <ul class="social-buton-list">
