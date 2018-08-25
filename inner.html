@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
@@ -53,7 +55,7 @@
           <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="fixed" id="filter-fixed" tabindex="2">
             <label for="filter-fixed">Фиксированная</label>
           </li>
-          <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="rubber" id="filter-rubber" tabindex="3">
+          <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="setka" value="rubber" id="filter-rubber" tabindex="3" disabled>
             <label for="filter-rubber">Резиновая
             </label>
           </li>
@@ -63,23 +65,23 @@
         <legend>Особенности</legend>
         <ul>
           <li class="filter-option">
-            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" tabindex="4"checked>
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" tabindex="4"checked>
             <label for="filter-slider">Слайдер</label>
           </li>
           <li class="filter-option">
-            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block avantages" id="filter-avantages" tabindex="5">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block avantages" id="filter-avantages" tabindex="5">
             <label for="filter-avantages">Блок преимуществ</label>
           </li>
           <li class="filter-option">
-            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" tabindex="6" checked>
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" tabindex="6" checked>
             <label for="filter-news">Новости</label>
           </li>
           <li class="filter-option">
-            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galary" id="filter-galary" tabindex="7">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galary" id="filter-galary" tabindex="7">
             <label for="filter-galary">Галерея</label>
           </li>
           <li class="filter-option">
-            <input="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket" tabindex="8">
+            <input clas="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket" tabindex="8">
             <label for="filter-basket">Корзина</label>
           </li>
         </ul>
@@ -99,7 +101,7 @@
           </h3>
           <p class="catalog-item-image">
             <a href="catalog-item.html">
-              <img src="picture-product-1.jpg" width="50" height="90" alt="Образец сайта Sedona">
+              <img src="img/pictures/picture-product-1.jpg" width="50" height="90" alt="Образец сайта Sedona">
             </a>
           </p>
           <p class="catalog-item-price">
@@ -115,7 +117,7 @@
           </h3>
           <p class="catalog-item-image">
             <a href="catalog-item.html">
-              <img src="img/картинки/picture-product-2.jpg" width="50" height="90" alt="Образец сайта Pink">
+              <img src="img/pictures/picture-product-2.jpg" width="50" height="90" alt="Образец сайта Pink">
             </a>
           </p>
           <p class="catalog-item-price">
@@ -131,7 +133,7 @@
           </h3>
           <p class="catalog-item-image">
             <a href="catalog-item.html">
-              <img src="img/picture-product-3.jpg" width="50" height="90" alt="Образец сайта Barbershop">
+              <img src="img/pictures/picture-product-3.jpg" width="50" height="90" alt="Образец сайта Barbershop">
             </a>
           </p>
           <p class="catalog-item-price">
@@ -147,7 +149,7 @@
           </h3>
           <p class="catalog-item-image">
             <a href="catalog-item.html">
-              <img src="img/картинки/picture-product-4.jpg" width="50" height="90" alt="Образец сайта Mishka">
+              <img src="img/pictures/picture-product-4.jpg" width="50" height="90" alt="Образец сайта Mishka">
             </a>
           </p>
           <p class="catalog-item-price">
@@ -163,7 +165,7 @@
           </h3>
           <p class="catalog-item-image">
             <a href="catalog-item.html">
-              <img src="img/картинки/picture-product-5.jpg" width="50" height="90" alt="Образец сайта Aplus">
+              <img src="img/pictures/picture-product-5.jpg" width="50" height="90" alt="Образец сайта Aplus">
             </a>
           </p>
           <p class="catalog-item-price">
@@ -179,7 +181,7 @@
           </h3>
           <p class="catalog-item-image">
             <a href="catalog-item.html">
-              <img src="img/картинки/picture-product-6.jpg" width="50" height="90" alt="Образец сайта Kvast">
+              <img src="img/pictures/picture-product-6.jpg" width="50" height="90" alt="Образец сайта Kvast">
             </a>
           </p>
           <p class="catalog-item-price">
@@ -197,10 +199,10 @@
   </main>
   <footer class="main-footer">
     <section class="first-map">
-      <img src="img/картинки/footer-first-map.jpg" width="360" height="230" alt="Карта">
-      <img src="img/картинки/footer-point-onmap.png" width="360" height="230" alt="Точка на карте">
+      <img src="img/pictures/footer-first-map.jpg" width="360" height="230" alt="Карта">
+      <img src="img/pictures/footer-point-onmap.png" width="360" height="230" alt="Точка на карте">
       <div class="studio-adress">
-          <img src="img/картинки/studio-adress-logo.png" width="360" height="230" alt="Адрес">
+          <img src="img/pictures/studio-adress-logo.png" width="360" height="230" alt="Адрес">
         <h2>Nerds design studio</h2>
         <p class="contacts">191 186, Санкт Петербург, ул. Б. Конюшенная, д. 19/8</p>
         <p>тел. +7(812)275-75-75</p>
@@ -210,7 +212,7 @@
     <section class="appointment">
       <h2>Напишите нам</h2>
       <a class="write-us">
-        <img src="img/картинки/write-us-table-1.png"width="360" height="230" alt="таблица напишите нам">
+        <img src="img/pictures/write-us-table-1.png"width="360" height="230" alt="таблица напишите нам">
       </a>
       <form class="table-info" action="https://echo.htmlacademy.ru" method="get">
         <table>
