@@ -19,18 +19,7 @@ a {
     list-style: none;
 }
 
-.main-navigation-wrapper {
-    font-size: 16px;
-    line-height: 30px;
-    color: #000000;
-    background-color: #eeeeee;
-}
-
 .basket-navigation {
-    font-size: 16px;
-    line-height: 30px;
-    color: #000000;
-    background-color: #eeeeee;
     list-style: none;
 }
 
@@ -108,7 +97,7 @@ a {
     background-color: #fb565a;
 }
 
-.title-slide-item-active p{
+.title-slide-item-active p {
     font-size: 16px;
     line-height: 24px;
     text-align: left;
@@ -134,7 +123,7 @@ a {
     height: 413px;
     object-fit: contain;
     background-image: url("../img/pictures/main-photo-1.png");
-    background-position: top right;
+    background-position: right;
     background-repeat: no-repeat;
 }
 
@@ -154,6 +143,10 @@ a {
     background-image: url("../img/pictures/main-photo-3.png");
     background-position: top right;
     background-repeat: no-repeat;
+}
+
+.slides-switches {
+    list-style: none;
 }
 
 .side-products-list {
@@ -251,12 +244,15 @@ a {
     text-align: left;
     font-size: 16px;
     line-height: 24px;
-    font-family: "Roboto - Bold";
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .par-abouts-list {
+    list-style: none;
+}
+
+.feature-list {
     list-style: none;
 }
 
@@ -380,7 +376,7 @@ a {
     list-style: none;
 }
 
-.main-navigation-wrapper {
+.main-navigation {
     font-size: 16px;
     line-height: 30px;
     color: #000000;
@@ -536,3 +532,228 @@ a {
 }
 
 /* ----- Сеточные стили ----- */
+
+html,
+body {
+    width: 1440;
+}
+
+img {
+    max-width: 100%;
+} 
+
+.container {
+    width: 1160px;
+    margin: auto;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation {
+    display: flex;
+}
+
+.basket-navigation {
+    margin-left: auto;
+  }
+
+.title-slide-item .title-slide-item-active h2 {
+    width: 376px;
+    height: 106px;
+}
+
+.title-slider-list p {
+    width: 361px;
+    height: 40px;
+}
+
+.slides-switches {
+    display: flex;
+}
+
+.slide-radio {
+    margin-right: 6px;
+}
+
+.site-navigation {
+    display: flex;
+}
+
+.site-navigation li {
+    margin-right: 47px;
+}
+
+
+.side-products-list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.side-products-item-red,
+.side-products-item-green,
+.side-products-item-yellowe {
+    width: 300px;
+    margin-right: 100px;
+}
+
+.anons-charter {
+    width: 650px;
+}
+
+.index-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.par-abouts {
+    width: 616px;
+}
+
+.orders {
+    width: 429px;
+}
+
+.feature-logo {
+    width: 360px;
+}
+
+.feature-logo h3 {
+    width: 328px;
+}
+
+.feature-list {
+    width: 305px;
+    display: flex;
+}
+
+.side-feature-item {
+    width: 305px;
+    margin-right: 26px;
+}
+
+.partner-photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 31px;
+}
+
+.main-footer {
+    margin-top: 35px;
+}
+
+.main-footer .container {
+    display: flex;
+    align-items: center;
+}
+
+.social-buton {
+     display: flex;
+}
+
+.social-buton-list {
+    display: flex;
+    margin-right: 140px;
+}
+
+.social-buton-item {
+    margin-right: 12px;
+}
+
+.par-title-list {
+    width: 545px;
+    display: flex;
+}
+
+.inner-page .main-header {
+    margin-bottom: 50px;
+}
+
+.inner-page .main-navigation {
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.inner-page .basket-navigation {
+    margin-left: auto;
+}
+
+.page-title {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+
+
+.main-filter {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.filter {
+    width: 260px;
+  
+    /* Временно для сетки */
+    min-height: 673px;
+}
+
+.catalog {
+    width: 760px;
+  
+    /* Временно для сетки */
+    min-height: 1914px;
+}
+
+.catalog-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog-item {
+    width: 360px;
+    margin-bottom: 36px;
+  
+    /* Временно для сетки */
+    min-height: 614px;
+}
+
+.pagination-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+    list-style: none;
+  
+    /* Временно для сетки */
+    min-height: 50px;
+}
+
+.pagination-item {
+    width: 50px;
+    margin-right: 8px;
+}
+
+.inner-page .main-footer {
+    margin-top: 45px;
+}
+
+  
+  
