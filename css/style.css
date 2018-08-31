@@ -540,7 +540,7 @@ body {
 
 img {
     max-width: 100%;
-} 
+}
 
 .container {
     width: 1160px;
@@ -558,7 +558,7 @@ img {
 
 .basket-navigation {
     margin-left: auto;
-  }
+}
 
 .title-slide-item .title-slide-item-active h2 {
     width: 376px;
@@ -654,7 +654,7 @@ img {
 }
 
 .social-buton {
-     display: flex;
+    display: flex;
 }
 
 .social-buton-list {
@@ -670,6 +670,7 @@ img {
     width: 545px;
     display: flex;
 }
+
 
 .inner-page .main-header {
     margin-bottom: 50px;
@@ -690,8 +691,6 @@ img {
     padding: 0;
 }
 
-
-
 .main-filter {
     display: flex;
     padding: 0;
@@ -701,14 +700,14 @@ img {
 
 .filter {
     width: 260px;
-  
+
     /* Временно для сетки */
     min-height: 673px;
 }
 
 .catalog {
     width: 760px;
-  
+
     /* Временно для сетки */
     min-height: 1914px;
 }
@@ -730,7 +729,7 @@ img {
 .catalog-item {
     width: 360px;
     margin-bottom: 36px;
-  
+
     /* Временно для сетки */
     min-height: 614px;
 }
@@ -741,7 +740,7 @@ img {
     margin: 0;
     margin-bottom: 60px;
     list-style: none;
-  
+
     /* Временно для сетки */
     min-height: 50px;
 }
@@ -755,5 +754,3 @@ img {
     margin-top: 45px;
 }
 
-  
-  
