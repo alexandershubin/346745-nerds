@@ -543,16 +543,36 @@ li.site-navigation-current a {
     font-weight: 500;
 }
 
-.filter-item {
-    margin: 0;
-    padding: 0;
+.small-header-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
-    border: none;
+
+.main-filter {
+    font-size: 14px;
+    list-style: none;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.main-filter-curret a {
+    color: #000000;
+}
+
+.main-filter-catalog {
+    color: #000000;
+    opacity: 0.3;
 }
 
 .range-filter {
     width: 260px;
-    margin-top: 49px;
 }
 
 .range-controls {
@@ -644,22 +664,6 @@ li.site-navigation-current a {
     text-transform: uppercase;
 }
 
-.main-filter {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    text-transform: uppercase;
-    list-style: none;
-}
-
-.main-filter-curret a {
-    color: #000000; 
-}
-
-.main-filter-catalog {
-    color: #000000;
-    opacity: 0.3;
-}
 .main-filter a:hover,
 .main-filter a:focus {
     color: #000000;
@@ -672,18 +676,16 @@ li.site-navigation-current a {
 .filter legend {
     text-align: left;
     font-size: 18px;
-    font-weight: 700;
     line-height: 30px;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.05px;
+    width: 61px;
 }
 
 .filter ul {
     list-style: none;
     color: #283136;
     line-height: 20px;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .filter-input:hover + label,
@@ -941,6 +943,15 @@ li.catalog-item:hover .catalog-item-price {
     margin-right: 12px;
 }
 
+.social-button:hover,
+.social-button:focus {
+  background-color: #e74246;
+}
+
+.social-button:active path {
+  opacity: 0.3;
+}
+
 .par-title-list {
     width: 545px;
     display: flex;
@@ -961,15 +972,31 @@ li.catalog-item:hover .catalog-item-price {
     padding-bottom: 116px;
 }
 
-.main-filters {
-    width: 261px;
+.navigation-filter {
     display: flex;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .main-filter {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+.main-filter li {
+    display: flex;
+    margin-right: 26px;
+}
+
+.main-filter li:last-child {
+    margin-right: 0px;
+}
+
+.main-filters {
     display: flex;
     padding: 0;
     margin: 0;
@@ -985,7 +1012,7 @@ fieldset ul {
     margin: 0px;
     border: none;
     padding: 0px;
-    padding-bottom: 19px;
+    
 }
 
 .catalog {
@@ -1049,4 +1076,28 @@ fieldset ul {
     display: flex;
 }
 
+.filter fieldset {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    
+    border: none;
+  }
+  
+.filter fieldset:first-child {
+    margin-bottom: 35px;
+}
+  .filter legend {
+    margin-bottom: 20px;
+  }
 
+.filter-option svg {
+    opacity: 0.4;
+}
+li.filter-option label {
+    margin-left: 10px;
+}
+
+li.filter-option {
+    margin-bottom: 15px;
+}
