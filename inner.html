@@ -331,25 +331,29 @@
     </div>
   </footer>
 
-  <section class="appointment">
-    <h2>Напишите нам</h2>
-    <form class="table-info" action="https://echo.htmlacademy.ru" method="get">
-      <table>
-        <tr>
-          <td><label for="name-field">Ваш имя:</label></td>
-          <td><label for="email">Ваш email:</label></td>
-        </tr>
-        <tr>
-          <td><input type="text" name="name" id="name-field" placeholder="Имя Фамилия" autocomplete="on" tabindex="1" required></td>
-          <td><input type="email" name="email" id="email" placeholder="email@example.com" autocomplete="on" tabindex="2" required></td>
-        </tr>
-      </table>
-      <h3>Текст письма:</h3>
-      <textarea name="text-letter" id="text-letter-field" rows="10" cols="100" tabindex="3">В свободной форме</textarea>
-      <div class="buttons">
-        <input type="submit" value="Отправить" tabindex="4">
-      </div>
-    </form>
-  </section>
+  <section class="modal modal-login">
+      <h2>Напишите нам</h2>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <table>
+          <tr>
+            <td><label class="text-box" for="name-field">Ваш имя:</label></td>
+            <td><label class="text-box" for="email">Ваш email:</label></td>
+          </tr>
+          <tr>
+            <td><input class="name-icon-user" id="name-field" type="text" name="name" placeholder="Имя Фамилия"></td>
+            <td><input class="login-icon-password" id="email" type="email" name="email" placeholder="email@example.com"></td>
+          </tr>
+        </table>
+        <p class="text-box">Текст письма:</p>
+        <textarea name="text-letter" id="text-letter-field" rows="10" cols="70" tabindex="3" placeholder="В свободной форме"></textarea>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+      <a class="modal-close" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+          <path fill="#FB565A" d="M13.328 10.5l7.371-7.371a1.003 1.003 0 0 0 0-1.414L19.285.3a1.003 1.003 0 0 0-1.414 0L10.5 7.672 3.129.301a1.003 1.003 0 0 0-1.414 0L.301 1.715a1.003 1.003 0 0 0 0 1.414L7.672 10.5.301 17.871a1.003 1.003 0 0 0 0 1.414l1.415 1.414a1.003 1.003 0 0 0 1.414 0l7.371-7.371 7.371 7.371a1.003 1.003 0 0 0 1.414 0l1.414-1.414a1.003 1.003 0 0 0 0-1.414L13.328 10.5z">
+          </path>
+        </svg>
+      </a>
+    </section>
 </body>
 </html>
