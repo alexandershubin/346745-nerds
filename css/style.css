@@ -555,7 +555,6 @@ li.site-navigation-current a {
     border-bottom: 2px solid #fb565a;
 }
 
-
 .page-title-logo h2 {
     font-size: 55px;
     line-height: 55px;
@@ -611,6 +610,24 @@ li.filter-little {
     padding-right: 12px;
 }
 
+.icon-up a {
+    opacity: 0.3;
+}
+
+.icon-up a:focus,
+.icon-up a:hover {
+    opacity: 0.6;
+}
+
+.icon-up a:active {
+    opacity: 1;
+}
+
+.icon-down a:hover,
+.icon-down a:focus,
+.icon-down a:active {
+    opacity: 1;
+}
 
 .main-filters h3 {
     padding-bottom: 55px;
