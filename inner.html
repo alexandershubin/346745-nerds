@@ -22,7 +22,7 @@
           <li><a href="contacts">Контакты</a></li>
         </ul>
         <ul class="basket-navigation">
-          <li><a class="login-link" href="login.html">Корзина</a></li>
+          <li><a class="basket-pictures" href="#">Корзина</a></li>
         </ul>
       </nav>
     </div>
@@ -260,7 +260,7 @@
             <h2>Nerds design studio</h2>
             <p class="contacts">191 186, Санкт Петербург, ул. Б. Конюшенная, д. 19/8</p>
             <p>тел. +7(812)275-75-75</p>
-            <a class="button" href="writeus">Напишите нам</a>
+            <a class="button button-link" href="login-html">Напишите нам</a>
           </div>
         </div>
       </div>
@@ -331,5 +331,19 @@
         </svg>
       </a>
     </section>
+
+    <script>
+        var link = document.querySelector(".button-link");
+        var popup = document.querySelector(".modal-login");
+          link.addEventListener("click", function(evt)
+          {evt.preventDefault();
+          popup.classList.add("modal-show");
+          });
+        var close = document.querySelector(".modal-close");
+          close.addEventListener("click", function(evt)
+          {evt.preventDefault();
+          popup.classList.remove("modal-show");
+          });
+      </script>
 </body>
 </html>
