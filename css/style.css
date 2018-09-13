@@ -43,7 +43,7 @@ img {
     max-width: 140px;
 }
 
-.login-link::before {
+.basket-pictures::before {
     content: "";
     position: absolute;
     top: 38px;
@@ -55,7 +55,7 @@ img {
     background-position: 0 0;
 }
 
-.basket-navigation .login-link {
+.basket-navigation .basket-pictures {
     position: relative;
     padding-left: 50px;
 }
@@ -464,6 +464,10 @@ margin-left: 40px;
     padding: 50px 80px;
     margin-left: -230px;
     z-index: 10;
+}
+
+.modal-show {
+    display: block;
 }
 
 .modal-close {
