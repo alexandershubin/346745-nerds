@@ -391,9 +391,9 @@ li.side-feature-item p {
 
 .partner-photo {
     list-style: none;
-    margin-bottom: 76px;
+    margin-bottom: 73px;
     position: relative;
-    left: 242px;
+    left: 72px;
     top: -40px;
 }
 
@@ -509,7 +509,7 @@ li.partner-photo-item {
     width: 319px;
     height: 308px;
     top: 60px;
-    left:264px;
+    left: 93px;
     background-image: url("../img/pictures/studio-adress-logo.png");
     object-fit: contain;
     background-position: center;
@@ -551,10 +551,10 @@ li.partner-photo-item {
     display: none;
     top: 37px;
     left: 592px;
-    width: 765px;
-    height: 463px;
-    padding: 64px 98px;
-    margin-left: -234px;
+    width: 613px;
+    height: 378px;
+    padding: 47px 78px;
+    margin-left: -276px;
     z-index: 10;
 }
 
@@ -622,28 +622,28 @@ li.partner-photo-item {
 
 .modal-close svg {
     position: absolute;
-    top: 77px;
-    right: 92px;
+    top: 60px;
+    right: 74px;
     font-size: 0;
     border: 0;
     cursor: pointer;
-    color: #d7373b
+    color: #d7373b;
 }
 
 .modal-login h2 {
-    font-size: 45px;
+    margin: 0;
+    margin-bottom: 7px;
+    font-size: 37px;
     font-weight: 500;
     line-height: 45px;
-    margin: 0;
-    margin-bottom: 23px;
 }
 
 .text-box {
     margin: 0;
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 4px;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 18px
 }
 
 .text-letter {
@@ -651,39 +651,43 @@ li.partner-photo-item {
 }
 
 button.button.button-plus {
-    width: 262px;
+    width: 210px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 14px;
 }
 
 input#name-field,
 input#email {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 18px;
 }
 
 .login-form input[type="text"],
 .login-form input[type="email"] {
-    width: 347px;
-    height: 46px;
+    width: 273px;
+    height: 35px;
     border: 2px solid #d7dcde;
     background-color: #ffffff;
-    margin-right: 38px;
-    margin-top: 7px;
-    margin-bottom: 16px;
+    margin-right: 32px;
+    margin-top: 4px;
+    margin-bottom: 9px;
     padding-left: 12px;
 }
 
 textarea#text-letter-field {
-    width: 742px;
-    height: 102px;
+    width: 592px;
+    height: 81px;
     border: 2px solid #d7dcde;
     background-color: #ffffff;
-    margin-bottom: 41px;
-    padding-left: 15px;
+    margin-bottom: 33px;
+    padding-left: 13px;
     font-weight: 400;
     line-height: 18px;
-    font-size: 16px;
-    padding-top: 11px;
+    font-size: 13px;
+    padding-top: 7px;
 }
 
 textarea#text-letter-field:focus,
@@ -1175,7 +1179,7 @@ section.first-map iframe {
     display: flex;
     align-items: center;
     margin: 0px;
-    margin-left: 112px;
+    margin-left: -58px;
 }
 
 .social-buton a {
