@@ -109,10 +109,10 @@
                 </ul>
                 <ul class="filter-little">
                   <li class="filter-little icon-down">
-                    <a href="#"><img src="img/svg-nerds/icon-down-dir.svg"></a>
+                    <a href="#"><img src="img/svg-nerds/icon-down-dir.svg" alt="стрелка вниз"></a>
                   </li>
                   <li class="filter-little icon-up">
-                    <a href="#"><img src="img/svg-nerds/icon-up-dir.svg"></a>
+                    <a href="#"><img src="img/svg-nerds/icon-up-dir.svg" alt="стрелка вверх"></a>
                   </li>
                 </ul>
               </nav>
@@ -221,7 +221,7 @@
             <li class="catalog-item">
               <div class="catalog-cap">
                 <a href="catalog-item.html">
-                  <img src="img/pictures/browser.png" width="100%" height="40" alt="шапка каталога">
+                  <img src="img/pictures/browser.png" width="360" height="40" alt="шапка каталога">
                 </a>
               </div>
               <div class="catalog-item-image">
@@ -252,7 +252,7 @@
 
   <footer class="main-footer">
     <section class="first-map">
-      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A898bd1dd4bcac283082ce8428ef1efe8b3a975d5ce62b47f4027290b50766158&amp;source=constructor" width="100%" height="423" frameborder="0">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A898bd1dd4bcac283082ce8428ef1efe8b3a975d5ce62b47f4027290b50766158&amp;source=constructor" height="423">
       </iframe>
       <div class="main-footer-wrap">
         <div class="container">
@@ -310,16 +310,16 @@
   <section class="modal modal-login">
     <h2>Напишите нам</h2>
     <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-      <table>
-        <tr>
-          <td><label class="text-box" for="name-field">Ваш имя:</label></td>
-          <td><label class="text-box" for="email">Ваш email:</label></td>
-        </tr>
-        <tr>
-          <td><input class="name-icon-user" id="name-field" type="text" name="name" placeholder="Имя Фамилия"></td>
-          <td><input class="login-icon-password" id="email" type="email" name="email" placeholder="email@example.com"></td>
-        </tr>
-      </table>
+      <div class="text-letter">
+        <p>
+          <label class="text-box" for="name-field">Ваш имя:</label>
+          <input class="name-icon-user" id="name-field" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label class="text-box" for="email">Ваш email:</label>
+          <input class="login-icon-password" id="email" type="email" name="email" placeholder="email@example.com">
+        </p>
+      </div>
       <p class="text-box">Текст письма:</p>
       <textarea name="text-letter" id="text-letter-field" rows="10" cols="70" tabindex="3" placeholder="В свободной форме"></textarea>
       <button class="button" type="submit">Отправить</button>
@@ -332,68 +332,6 @@
     </a>
   </section>
 
-  <script>
-    var link = document.querySelector(".button-link");
-    var popup = document.querySelector(".modal-login");
-    var close = document.querySelector(".modal-close");
-    var login = popup.querySelector("[name=name]");
-    var form = popup.querySelector("form");
-    var password = popup.querySelector("[name=email]");
-
-    var isStorageSupport = true;
-    var storage = "";
-
-    try {
-      storage = localStorage.getItem("name");
-      } catch (err) {
-      isStorageSupport = false;
-      }
-
-      link.addEventListener("click", function(evt)
-      {evt.preventDefault();
-      popup.classList.add("modal-show");
-      });
-
-      close.addEventListener("click", function(evt)
-      {evt.preventDefault();
-      popup.classList.remove("modal-show");
-      popup.classList.remove("modal-error");
-      });
-
-      link.addEventListener("click", function (evt) {
-      evt.preventDefault();
-      popup.classList.add("modal-show");
-      if (storage) {
-      name.value = storage;
-      email.focus();
-      } else {
-      name.focus();
-      }
-      });
-
-      form.addEventListener("submit", function (evt) {
-      if (!name.value || !email.value) {
-      evt.preventDefault();
-      popup.classList.remove("modal-error");
-      popup.offsetWidth = popup.offsetWidth;
-      popup.classList.add("modal-error");
-      console.log("Нужно Имя и email");
-      } else {
-        if (isStorageSupport) {
-          localStorage.setItem("name", name.value);
-        }
-      }
-      });
-
-      window.addEventListener("keydown", function (evt) {
-      if (evt.keyCode === 27) {
-      evt.preventDefault();
-      if (popup.classList.contains("modal-show")) {
-      popup.classList.remove("modal-show");
-      popup.classList.remove("modal-error");
-      }
-      }
-      });
-  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>

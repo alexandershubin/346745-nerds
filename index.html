@@ -93,15 +93,12 @@
         </ul>
       </section>
 
-      <article class="about-us">
-        <div class="index-columns">
+        <section class="index-columns">
           <div class="orders">
-            <header class="anons-charter">
-              <p><b>Мы-маленькая, но гордая дизайн-студия из Краснодара.</b></p>
-            </header>
+              <p class="anons-charter">Мы &#8212 маленькая, но гордая<br>дизайн-студия из Краснодара.</p>
 
             <section class="par-abouts">
-              <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы</p>
+              <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>превыше креатива. Работаем не покладая рук, как роботы</p>
               <h3>Выполняем заказы на разработку:</h3>
               <ul class="par-abouts-list">
                 <li class="par-abouts-item">Веб-сайтов любой сложности</li>
@@ -115,7 +112,7 @@
             <a class="feature-logo">
               <img src="img/pictures/feature-logo.png" width="360" height="208" alt="Логотип заголовка преимущества">
             </a>
-            <h3>С 2004 года любим точность во всем:</h3>
+            <h4>С 2004 года любим точность во всем:</h3>
             <ul class="feature-list">
               <li class="side-feature-item">
                 <h3>146%</h3>
@@ -134,14 +131,14 @@
             </ul>
           </aside>
         </div>
-      </article>
+      </section>
 
       <section class="partner-photo">
         <ul class="partner-photo-list">
-          <li class="partner-photo-item"><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/pictures/partner-photo-1.png" width="199" height="68" alt="photo-1"></a></li>
-          <li class="partner-photo-item"><img src="img/pictures/partner-photo-2.png" width="209" height="90" alt="photo-2"></li>
-          <li class="partner-photo-item"><img src="img/pictures/partner-photo-3.png" width="185" height="52" alt="photo-3"></li>
-          <li class="partner-photo-item"><img src="img/pictures/partner-photo-4.png" width="173" height="84" alt="photo-4"></li>
+          <li class="partner-photo-item image1"><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/pictures/partner-photo-1.png" width="199" height="68" alt="photo-1"></a></li>
+          <li class="partner-photo-item image2"><img src="img/pictures/partner-photo-2.png" width="209" height="90" alt="photo-2"></li>
+          <li class="partner-photo-item image3"><img src="img/pictures/partner-photo-3.png" width="185" height="52" alt="photo-3"></li>
+          <li class="partner-photo-item image4"><img src="img/pictures/partner-photo-4.png" width="173" height="84" alt="photo-4"></li>
        </ul>
       </section>
     </div>
@@ -149,13 +146,13 @@
 
   <footer class="main-footer">
     <section class="first-map">
-      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A898bd1dd4bcac283082ce8428ef1efe8b3a975d5ce62b47f4027290b50766158&amp;source=constructor" width="100%" height="423" frameborder="0">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A898bd1dd4bcac283082ce8428ef1efe8b3a975d5ce62b47f4027290b50766158&amp;source=constructor" height="423">
       </iframe>
       <div class="main-footer-wrap">
         <div class="container">
           <div class="studio-adress">
             <h2>Nerds design studio</h2>
-            <p class="contacts">191 186, Санкт Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <p class="contacts">191 186, Санкт Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
             <p>тел. +7(812)275-75-75</p>
             <a class="button button-link" href="login-html">Напишите нам</a>
           </div>
@@ -165,7 +162,6 @@
 
     <div class="container">
       <section class="social-buton">
-        <div class="container">
           <ul class="social-buton-list">
             <li class="social-buton-item">
               <a class="social-button" href="#">
@@ -199,24 +195,23 @@
               <p>Скидка 10% для друзеий из социальных сетей.</p>
             </li>
           </ul>
-        </div>
       </section>
     </div>
   </footer>
 
   <section class="modal modal-login">
-    <p>Напишите нам</p>
+    <h2>Напишите нам</h2>
     <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-      <table>
-        <tr>
-          <td><label class="text-box" for="name-field">Ваш имя:</label></td>
-          <td><label class="text-box" for="email">Ваш email:</label></td>
-        </tr>
-        <tr>
-          <td><input class="name-icon-user" id="name-field" type="text" name="name" placeholder="Имя Фамилия"></td>
-          <td><input class="login-icon-password" id="email" type="email" name="email" placeholder="email@example.com"></td>
-        </tr>
-      </table>
+      <div class="text-letter">
+        <p>
+          <label class="text-box" for="name-field">Ваш имя:</label>
+          <input class="name-icon-user" id="name-field" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label class="text-box" for="email">Ваш email:</label>
+          <input class="login-icon-password" id="email" type="email" name="email" placeholder="email@example.com">
+        </p>
+      </div>
       <p class="text-box">Текст письма:</p>
       <textarea name="text-letter" id="text-letter-field" rows="10" cols="70" tabindex="3" placeholder="В свободной форме"></textarea>
       <button class="button" type="submit">Отправить</button>
@@ -229,69 +224,6 @@
     </a>
   </section>
 
-  <script>
-    var link = document.querySelector(".button-link");
-    var popup = document.querySelector(".modal-login");
-    var close = document.querySelector(".modal-close");
-    var login = popup.querySelector("[name=name]");
-    var form = popup.querySelector("form");
-    var password = popup.querySelector("[name=email]");
-
-    var isStorageSupport = true;
-    var storage = "";
-
-    try {
-      storage = localStorage.getItem("name");
-      } catch (err) {
-      isStorageSupport = false;
-      }
-
-      link.addEventListener("click", function(evt)
-      {evt.preventDefault();
-      popup.classList.add("modal-show");
-      });
-
-      close.addEventListener("click", function(evt)
-      {evt.preventDefault();
-      popup.classList.remove("modal-show");
-      popup.classList.remove("modal-error");
-      });
-
-      link.addEventListener("click", function (evt) {
-      evt.preventDefault();
-      popup.classList.add("modal-show");
-      if (storage) {
-      name.value = storage;
-      email.focus();
-      } else {
-      name.focus();
-      }
-      });
-
-      form.addEventListener("submit", function (evt) {
-      if (!name.value || !email.value) {
-      evt.preventDefault();
-      popup.classList.remove("modal-error");
-      popup.offsetWidth = popup.offsetWidth;
-      popup.classList.add("modal-error");
-      console.log("Нужно Имя и email");
-      } else {
-        if (isStorageSupport) {
-          localStorage.setItem("name", name.value);
-        }
-      }
-      });
-
-      window.addEventListener("keydown", function (evt) {
-      if (evt.keyCode === 27) {
-      evt.preventDefault();
-      if (popup.classList.contains("modal-show")) {
-      popup.classList.remove("modal-show");
-      popup.classList.remove("modal-error");
-      }
-      }
-      });
-    
-  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>
