@@ -549,12 +549,12 @@ li.partner-photo-item {
 
 .modal-login {
     display: none;
-    top: 65px;
-    left: 34%;
-    width: 800px;
-    height: 460px;
-    padding: 50px 80px;
-    margin-left: -230px;
+    top: 37px;
+    left: 592px;
+    width: 765px;
+    height: 463px;
+    padding: 64px 98px;
+    margin-left: -234px;
     z-index: 10;
 }
 
@@ -622,8 +622,8 @@ li.partner-photo-item {
 
 .modal-close svg {
     position: absolute;
-    top: 65px;
-    right: 85px;
+    top: 77px;
+    right: 92px;
     font-size: 0;
     border: 0;
     cursor: pointer;
@@ -635,7 +635,7 @@ li.partner-photo-item {
     font-weight: 500;
     line-height: 45px;
     margin: 0;
-    margin-bottom: 45px;
+    margin-bottom: 23px;
 }
 
 .text-box {
@@ -650,24 +650,40 @@ li.partner-photo-item {
     display: flex;
 }
 
+button.button.button-plus {
+    width: 262px;
+}
+
+input#name-field,
+input#email {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
 .login-form input[type="text"],
 .login-form input[type="email"] {
-    width: 360px;
-    height: 50px;
+    width: 347px;
+    height: 46px;
     border: 2px solid #d7dcde;
     background-color: #ffffff;
-    margin-right: 20px;
-    margin-bottom: 35px;
-    padding-left: 10px;
+    margin-right: 38px;
+    margin-top: 7px;
+    margin-bottom: 16px;
+    padding-left: 12px;
 }
 
 textarea#text-letter-field {
-    width: 760px;
-    height: 118px;
+    width: 742px;
+    height: 102px;
     border: 2px solid #d7dcde;
     background-color: #ffffff;
-    margin-bottom: 45px;
-    padding-left: 10px;
+    margin-bottom: 41px;
+    padding-left: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 16px;
+    padding-top: 11px;
 }
 
 textarea#text-letter-field:focus,
