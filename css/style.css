@@ -765,11 +765,12 @@ ul.filter-little {
 }
 
 li.filter-little {
-    padding-right: 12px;
+    padding-left: 6px;
 }
 
 .icon-up a {
     opacity: 0.3;
+    padding-left: 12px
 }
 
 .icon-up a:focus,
@@ -788,7 +789,10 @@ li.filter-little {
 }
 
 .main-filters h3 {
-    padding-bottom: 55px;
+    padding-bottom: 52px;
+    margin: 0px;
+    margin-top: 21px;
+    font-size: 19px;
 }
 
 .range-filter {
@@ -848,6 +852,7 @@ li.filter-little {
     width: 50%;
     font-size: 16px;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .price-controls input {
@@ -867,10 +872,6 @@ li.filter-little {
     text-align: right;
 }
 
-.filter fieldset {
-    border: none;
-}
-
 .filter legend {
     text-align: left;
     font-size: 18px;
@@ -885,24 +886,14 @@ li.filter-little {
     margin: 0;
     list-style: none;
     color: #283136;
-    line-height: 20px;
-}
-/*
-.filter-input:hover + label,
-.filter-input:focus + label {
-    color: #000000;
+    line-height: 21px;
 }
 
-.filter-input:disabled + label {
-    color: #283136;
-    opacity: 0.3;
-}
-*/
 button.filter-button.button {
     background-color: #eeeeee;
     color: #000000;
-    font-size: 16px;
-    line-height: 18px;
+    width: 260px;
+    margin-top: 31px;
 }
 
 button.filter-button.button:hover,
@@ -921,7 +912,7 @@ button.filter-button.button:active {
     width: 360px;
     height: 576px;
     border: 1px solid rgba(0, 1, 1, 0.1);
-    margin-bottom: 100px;
+    margin-bottom: 71px;
 }
 
 li.catalog-item:hover .catalog-item-price {
@@ -950,6 +941,8 @@ p.catalog-item-image {
 
 .catalog-item-caption {
     font-size: 18px;
+    padding-top: 25px;
+    margin: 0px;
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
@@ -971,19 +964,12 @@ p.catalog-item-image {
     font-weight: 400;
     line-height: 18px;
     color: #666666;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
 
 .catalog-item-price .button {
-    line-height: 17.5px;
-    color: #ffffff;
-    background-color: #fb565a;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    margin-left: 60px;
+    margin-left: 78px;
+    width: 200px;
 }
 
 .catalog-item-price .button:hover,
@@ -1005,9 +991,8 @@ p.catalog-item-image {
 }
 
 .pagination-item {
-    text-align: center;
-    margin-right: 10px; 
-    margin-top: 24px;
+    margin-right: 11px; 
+    margin-top: -12px;
 }
 
 .pagination-item.pagination-item-number .button {
@@ -1023,7 +1008,9 @@ p.catalog-item-image {
 .pagination-item-current .button {
     background-color: #ffffff;
     border: 3px solid #dbdbdb;
-    width: 50px;
+    width: 45px;
+    height: 13px;
+    padding-top: 14px;
 }
 
 .pagination-item .button:hover,
@@ -1084,7 +1071,7 @@ p.catalog-item-image {
 
 .site-navigation li {
     display: flex;
-    margin-right: 47px;
+    margin-right: 46px;
 }
 
 .site-navigation li:last-child {
@@ -1215,16 +1202,16 @@ ul.par-title-list p {
 .page-title {
     margin: 0;
     padding: 0;
-    padding-top: 82px;
+    padding-top: 76px;
     text-align: center;
-    padding-bottom: 116px;
+    padding-bottom: 110px;
 }
 
 .small-header-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 90px;
+    padding-bottom: 76px;
 }
 
 .main-filter {
@@ -1236,7 +1223,7 @@ ul.par-title-list p {
 
 .main-filter li {
     display: flex;
-    margin-right: 26px;
+    margin-right: 27px;
 }
 
 .main-filter li:last-child {
@@ -1254,6 +1241,7 @@ ul.par-title-list p {
     margin: 0px;
     border: none;
     padding: 0px;
+    margin-bottom: 26px;
 }
 
 .catalog {
@@ -1263,7 +1251,7 @@ ul.par-title-list p {
 .catalog-columns {
     display: flex;
     justify-content: space-between;
-    padding-top: 60px;
+    padding-top: 41px;
 }
 
 .catalog-list {
@@ -1279,7 +1267,7 @@ ul.par-title-list p {
     display: flex;
     padding: 0;
     margin: 0;
-    margin-bottom: 60px;
+    margin-bottom: 44px;
     list-style: none;
 
     /* Временно для сетки */
@@ -1308,14 +1296,7 @@ ul.par-title-list p {
 .filter legend {
     padding: 0;
     margin: 0;
-    margin-bottom: 20px;
-}
-
-.filter fieldset {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 30px;
-    border: none;
+    margin-bottom: 15px;
 }
 
 .filter fieldset:first-child {
@@ -1324,7 +1305,7 @@ ul.par-title-list p {
 
 .filter-option {
     margin-bottom: 19px;
-    padding-left: 45px;
+    padding-left: 37px;
     opacity: 0.4;
 }
 
@@ -1347,7 +1328,7 @@ ul.par-title-list p {
 .filter-input-radio + label::before {
     content: "";
     position: absolute;
-    left: -42px;
+    left: -36px;
     top: -2px;
     width: 25px;
     height: 25px;
@@ -1360,7 +1341,7 @@ ul.par-title-list p {
     content: "";
     position: absolute;
     top: -2px;
-    left: -42px;
+    left: -36px;
     width: 26px;
     height: 26px;
     background-image: url("../img/svg-nerds/radio-on.svg");
@@ -1371,8 +1352,7 @@ ul.par-title-list p {
 .filter-input-checkbox + label::before {
     content: "";
     position: absolute;
-    left: -46px;
-    top: -4px;
+    left: -37px;
     width: 25px;
     height: 25px;
     background-image: url("../img/svg-nerds/checkbox-off.svg");
@@ -1384,8 +1364,7 @@ ul.par-title-list p {
 .filter-input-checkbox:checked + label::after {
     content: "";
     position: absolute;
-    top: -4px;
-    left: -46px;
+    left: -37px;
     width: 27px;
     height: 24px;
     background-image: url("../img/svg-nerds/checkbox-on.svg");
