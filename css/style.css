@@ -393,8 +393,8 @@ li.side-feature-item p {
     list-style: none;
     margin-bottom: 73px;
     position: relative;
-    left: 72px;
-    top: -40px;
+    left: -20px;
+    top: -41px;
 }
 
 .partner-photo-list {
@@ -509,7 +509,6 @@ li.partner-photo-item {
     width: 319px;
     height: 308px;
     top: 60px;
-    left: 93px;
     background-image: url("../img/pictures/studio-adress-logo.png");
     object-fit: contain;
     background-position: center;
@@ -521,7 +520,7 @@ li.partner-photo-item {
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
-    padding-left: 50px;
+    padding-left: 51px;
     padding-top: 6px;
 }
 
@@ -530,15 +529,15 @@ li.partner-photo-item {
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
-    padding-left: 50px;
+    padding-left: 51px;
     padding-top: 32px;
 }
 
 .studio-adress .button {
     width: 219px;
     margin-left: 50px;
-    margin-left: 50px;
-    margin-top: 35px;
+    margin-left: 51px;
+    margin-top: 34px;
 }
 
 .modal {
@@ -549,12 +548,11 @@ li.partner-photo-item {
 
 .modal-login {
     display: none;
-    top: 37px;
-    left: 592px;
-    width: 613px;
-    height: 378px;
-    padding: 47px 78px;
-    margin-left: -276px;
+    top: 45px;
+    width: 764px;
+    height: 459px;
+    padding: 64px 97px;
+    margin-left: 103px;
     z-index: 10;
 }
 
@@ -622,8 +620,8 @@ li.partner-photo-item {
 
 .modal-close svg {
     position: absolute;
-    top: 60px;
-    right: 74px;
+    top: 75px;
+    right: 89px;
     font-size: 0;
     border: 0;
     cursor: pointer;
@@ -632,16 +630,16 @@ li.partner-photo-item {
 
 .modal-login h2 {
     margin: 0;
-    margin-bottom: 7px;
-    font-size: 37px;
+    margin-bottom: 23px;
+    font-size: 45px;
     font-weight: 500;
     line-height: 45px;
 }
 
 .text-box {
     margin: 0;
-    margin-bottom: 4px;
-    font-size: 14px;
+    margin-bottom: 12px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 18px
 }
@@ -651,42 +649,42 @@ li.partner-photo-item {
 }
 
 button.button.button-plus {
-    width: 210px;
-    height: 40px;
-    font-size: 13px;
+    width: 261px;
+    height: 48px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 14px;
 }
 
 input#name-field,
 input#email {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 18px;
 }
 
 .login-form input[type="text"],
 .login-form input[type="email"] {
-    width: 273px;
-    height: 35px;
+    width: 344px;
+    height: 46px;
     border: 2px solid #d7dcde;
     background-color: #ffffff;
-    margin-right: 32px;
-    margin-top: 4px;
-    margin-bottom: 9px;
+    margin-right: 41px;
+    margin-top: 6px;
+    margin-bottom: 16px;
     padding-left: 12px;
 }
 
 textarea#text-letter-field {
-    width: 592px;
-    height: 81px;
+    width: 741px;
+    height: 101px;
     border: 2px solid #d7dcde;
     background-color: #ffffff;
-    margin-bottom: 33px;
+    margin-bottom: 45px;
     padding-left: 13px;
     font-weight: 400;
     line-height: 18px;
-    font-size: 13px;
+    font-size: 16px;
     padding-top: 7px;
 }
 
@@ -1097,7 +1095,7 @@ p.catalog-item-image {
     margin: 0;
     padding: 0px;
     list-style: none;
-    padding-left: 25px;
+    padding-left: 35px;
 }
 
 .slide-item {
@@ -1175,13 +1173,6 @@ section.first-map iframe {
     border: 0;
 }
 
-.main-footer .container {
-    display: flex;
-    align-items: center;
-    margin: 0px;
-    margin-left: -58px;
-}
-
 .social-buton a {
     display: flex;
     align-items: center;
@@ -1203,11 +1194,6 @@ section.first-map iframe {
 
 .social-button:active path {
     opacity: 0.3;
-}
-
-.par-title-list {
-    width: 545px;
-    display: flex;
 }
 
 ul.par-title-list h2 {
@@ -1302,12 +1288,11 @@ ul.par-title-list p {
 
 .social-buton {
     display: flex;
-    padding-left: 132px;
 }
 
 .social-buton-list {
     display: flex;
-    margin-right: 87px;
+    margin-right: 90px;
     padding-left: 0px;
     padding-top: 24px;
 }
