@@ -1306,16 +1306,6 @@ ul.par-title-list p {
 .filter-option {
     margin-bottom: 19px;
     padding-left: 37px;
-    opacity: 0.4;
-}
-
-.filter-option:active,
-.filter-option:hover {
-    opacity: 1;
-}
-
-.filter-option:disabled {
-    opacity: 0.1;
 }
 
 .filter-option label {
@@ -1335,6 +1325,7 @@ ul.par-title-list p {
     background-image: url("../img/svg-nerds/radio-off.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
+    opacity: 0.4;
 }
 
 .filter-input-radio:checked + label::after {
@@ -1347,6 +1338,7 @@ ul.par-title-list p {
     background-image: url("../img/svg-nerds/radio-on.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
+    opacity: 0.4;
 }
 
 .filter-input-checkbox + label::before {
@@ -1358,16 +1350,27 @@ ul.par-title-list p {
     background-image: url("../img/svg-nerds/checkbox-off.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
-    
+    opacity: 0.4;
 }
 
 .filter-input-checkbox:checked + label::after {
     content: "";
     position: absolute;
+    top: 0px;
     left: -37px;
     width: 27px;
     height: 24px;
     background-image: url("../img/svg-nerds/checkbox-on.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
+    opacity: 0.4;
+}
+
+.filter-option label:hover::before,
+.filter-option label:hover::after {
+    opacity: 1;
+}
+
+.filter-option:disabled {
+    opacity: 0.1;
 }
