@@ -46,7 +46,7 @@ img {
 .basket-pictures::before {
     content: "";
     position: absolute;
-    top: 28px;
+    top: 26px;
     left: 10px;
     width: 16px;
     height: 18px;
@@ -88,7 +88,7 @@ img {
 
 .slider {
     position: relative;
-    margin-bottom: 75px;
+    margin-bottom: 78px;
     background-color: #eeeeee;
     z-index: 1;
 }
@@ -135,7 +135,7 @@ img {
 
 .slider-item {
     display: none;
-    padding: 78px 0 85px 0;
+    padding: 72px 0 85px 0;
 }
 
 .slider-item:nth-child(1) {
@@ -230,6 +230,12 @@ img {
     position: relative;
 }
 
+section.side-products {
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 79px;
+    margin-bottom: 42px;
+}
+
 .side-products-list h3 {
     color: #000000;
     font-size: 24px;
@@ -253,7 +259,6 @@ ul.side-products-list .button {
 
 .side-products-item-red .button {
     background-color: #fb565a;
-    margin-bottom: 123px;
 }
 
 .side-products-item-red .button:hover,
@@ -289,23 +294,6 @@ ul.side-products-list .button {
 
 .side-products-item-yellowe .button:active {
     background-color: #e5a722;
-}
-
-.side-products-item-yellowe:after {
-    content: "";
-    display: block;
-    width: 1160px;
-    height: 1px;
-    background-color: black;
-    opacity: 0.1;
-    position: absolute;
-    left: 0;
-    margin-top: 61px;
-    top: 78%;
-}
-
-.orders {
-    margin-bottom: 140px;
 }
 
 .index-columns h3 {
@@ -371,8 +359,14 @@ aside.feature h4 {
     font-size: 45px;
     font-weight: 700;
     margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 8px;
+    margin-bottom: -7px;
+    margin-right: 23px;
+}
+
+.small-procent {
+    position: relative;
+    font-size: 26px;
+    top: -16px;
 }
 
 li.side-feature-item p {
@@ -391,10 +385,12 @@ li.side-feature-item p {
 
 .partner-photo {
     list-style: none;
-    margin-bottom: 73px;
     position: relative;
-    left: -20px;
-    top: -41px;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+    padding-top: 46px;
+    padding-bottom: 37px;
+    margin-bottom: 80px;
 }
 
 .partner-photo-list {
@@ -422,18 +418,6 @@ li.partner-photo-item.image3 {
 
 .partner-photo-item.image4 {
     padding-top: 5px;
-}
-
-.partner-photo:before {
-    content: "";
-    display: block;
-    width: 1160px;
-    height: 1px;
-    background-color: black;
-    opacity: 0.1;
-    position: absolute;
-    left: 23px;
-    margin-top: -48px;
 }
 
 .partner-photo-item.image2:before {
@@ -471,18 +455,6 @@ li.partner-photo-item.image3 {
     margin-top: 14px;
 }
 
-.partner-photo:after {
-    content: "";
-    display: block;
-    width: 1160px;
-    height: 1px;
-    background-color: black;
-    opacity: 0.1;
-    position: absolute;
-    left: 23px;
-    margin-top: 38px;
-}
-
 .partner-photo-item:hover,
 .partner-photo-item:focus {
     opacity: 1;
@@ -501,27 +473,18 @@ li.partner-photo-item {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 27px;
+    margin-bottom: 30px;
 }
 
 .first-map .studio-adress {
-    position: absolute;
-    width: 319px;
-    height: 308px;
-    top: 60px;
-    background-image: url("../img/pictures/studio-adress-logo.png");
+    width: 268px;
+    background-color: white;
     object-fit: contain;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.first-map .studio-adress p {
-    color: #666666;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
+    padding-top: 35px;
     padding-left: 51px;
-    padding-top: 6px;
+    padding-bottom: 46px;
 }
 
 .first-map .studio-adress h2 {
@@ -529,15 +492,21 @@ li.partner-photo-item {
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
-    padding-left: 51px;
-    padding-top: 32px;
+    margin-bottom: 24px;
+}
+
+.first-map .studio-adress p {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 18px;
+    margin-top: 10px;
 }
 
 .studio-adress .button {
     width: 219px;
-    margin-left: 50px;
-    margin-left: 51px;
-    margin-top: 34px;
+    margin-top: 36px;
 }
 
 .modal {
@@ -704,6 +673,7 @@ textarea#text-letter-field:hover,
 
 .par-title-list {
     list-style: none;
+    padding-left: 37px;
 }
 
 
@@ -715,7 +685,7 @@ li.site-navigation-current a {
 
 .page-title-logo h2 {
     font-size: 55px;
-    line-height: 55px;
+    line-height: 58px;
     background-color: #eeeeee;
     font-weight: 500;
 }
@@ -803,7 +773,7 @@ li.filter-little {
     position: relative;
     height: 41px;
     margin-bottom: 15px;
-    padding-top: 39px;
+    padding-top: 40px;
     padding-right: 20px;
     padding-left: 20px;
     background-color: #f1f1f1;
@@ -836,11 +806,11 @@ li.filter-little {
 }
 
 .range-controls .toggle-min {
-    left: 50px;
+    left: 18px;
 }
 
 .range-controls .toggle-max {
-    left: 110px;
+    left: 160px;
 }
 
 .price-controls {
@@ -1133,6 +1103,7 @@ p.catalog-item-image {
 .index-columns {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 49px;
 }
 
 .feature-list {
@@ -1151,7 +1122,7 @@ p.catalog-item-image {
     left: 0;
     top: 0;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 54px;
 }
 
 section.first-map iframe {
@@ -1196,22 +1167,20 @@ ul.par-title-list p {
     padding-top: 8px;
 }
 
-
-
     /*inner-page */
 .page-title {
     margin: 0;
     padding: 0;
     padding-top: 76px;
     text-align: center;
-    padding-bottom: 110px;
+    padding-bottom: 107px;
 }
 
 .small-header-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 76px;
+    padding-bottom: 75px;
 }
 
 .main-filter {
@@ -1219,7 +1188,6 @@ ul.par-title-list p {
     padding: 0;
     margin: 0;
 }
-
 
 .main-filter li {
     display: flex;
@@ -1267,7 +1235,7 @@ ul.par-title-list p {
     display: flex;
     padding: 0;
     margin: 0;
-    margin-bottom: 44px;
+    margin-bottom: 48px;
     list-style: none;
 
     /* Временно для сетки */
@@ -1288,8 +1256,6 @@ ul.par-title-list p {
 .social-buton-item {
     margin-right: 12px;
 }
-
-
 
 /*checkbox*/
 
