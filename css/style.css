@@ -644,7 +644,7 @@ input#email {
     padding-left: 12px;
 }
 
-textarea#text-letter-field {
+.text-letter-box {
     width: 741px;
     height: 101px;
     border: 2px solid #d7dcde;
@@ -657,12 +657,12 @@ textarea#text-letter-field {
     padding-top: 7px;
 }
 
-textarea#text-letter-field:focus,
+.text-letter-box:focus,
 .login-form input:focus {
     border-color: #000000;
 }
 
-textarea#text-letter-field:hover,
+.text-letter-box:hover,
 .login-form input:hover {
     border-color: #b4b9bb;
 }
@@ -1167,7 +1167,7 @@ ul.par-title-list p {
     padding-top: 8px;
 }
 
-    /*inner-page */
+/*inner-page */
 .page-title {
     margin: 0;
     padding: 0;
@@ -1237,7 +1237,6 @@ ul.par-title-list p {
     margin: 0;
     margin-bottom: 48px;
     list-style: none;
-
     /* Временно для сетки */
     min-height: 50px;
 }
