@@ -173,8 +173,8 @@ img {
 #product-3:checked ~ .slider-controls .slider-controls-item--3::before {
     content: "";
     position: absolute;
-    left: 58%;
-    top: 46%;
+    left: 59%;
+    top: 49%;
     z-index: 2;
     width: 4px;
     height: 4px;
@@ -408,7 +408,7 @@ li.side-feature-item p {
 
 li.partner-photo-item.image1 {
     padding-top: 12px;
-    padding-left: 52px;
+    padding-left: 30px;
     padding-right: 96px;
 }
 
@@ -432,8 +432,8 @@ li.partner-photo-item.image3 {
     background-color: black;
     opacity: 0.1;
     position: absolute;
-    left: 302px;
-    margin-top: 20px;
+    left: 280px;
+    margin-top: 18px;
 }
 
 .partner-photo-item.image3:before {
@@ -444,7 +444,7 @@ li.partner-photo-item.image3 {
     background-color: black;
     opacity: 0.1;
     position: absolute;
-    left: 601px; 
+    left: 580px; 
 }
 
 .partner-photo-item.image4:before {
@@ -455,7 +455,7 @@ li.partner-photo-item.image3 {
     background-color: black;
     opacity: 0.1;
     position: absolute;
-    left: 902px;
+    left: 880px;
     margin-top: 14px;
 }
 
@@ -481,11 +481,13 @@ li.partner-photo-item {
 }
 
 .first-map .studio-adress {
+    position: absolute;
     width: 268px;
     background-color: white;
     object-fit: contain;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 53px;
     padding-top: 35px;
     padding-left: 51px;
     padding-bottom: 46px;
@@ -646,6 +648,7 @@ input#email {
     margin-top: 6px;
     margin-bottom: 16px;
     padding-left: 12px;
+    opacity: 0.5;
 }
 
 .text-letter-box {
@@ -659,6 +662,8 @@ input#email {
     line-height: 18px;
     font-size: 16px;
     padding-top: 7px;
+    font-family: Roboto;
+    opacity: 0.5;
 }
 
 .text-letter-box:focus,
@@ -819,6 +824,7 @@ li.filter-little {
 
 .price-controls {
     font-size: 0;
+    vertical-align: middle;
 }
 
 .price-controls label {
@@ -927,7 +933,6 @@ p.catalog-item-image {
     text-align: center;
     background-color:#eeeeee;
     position: absolute;
-    height: 231px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -944,6 +949,7 @@ p.catalog-item-image {
 .catalog-item-price .button {
     margin-left: 78px;
     width: 200px;
+    margin-bottom: 40px;
 }
 
 .catalog-item-price .button:hover,
@@ -1126,7 +1132,6 @@ p.catalog-item-image {
     left: 0;
     top: 0;
     width: 100%;
-    padding-top: 54px;
 }
 
 section.first-map iframe {
@@ -1340,6 +1345,7 @@ ul.par-title-list p {
     opacity: 1;
 }
 
-.filter-option:disabled {
+.filter-option label:disabled::before,
+.filter-option label:disabled::after {
     opacity: 0.1;
 }
