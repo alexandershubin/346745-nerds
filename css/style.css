@@ -141,7 +141,7 @@ img {
 .slider-item:nth-child(1) {
     background-image: url("../img/pictures/main-photo-1.png");
     background-repeat: no-repeat;
-    background-position: 93% 20px;
+    background-position: 93% 24px;
 }
 
 .slider-item:nth-child(2) {
